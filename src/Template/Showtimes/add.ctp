@@ -20,7 +20,7 @@
         <legend><?= __('Add Showtime') ?></legend>
         <?php
             echo $this->Form->control('movie_id', ['options' => $movies]);
-            echo $this->Form->control('room_id', ['options' => $rooms]);
+            echo $this->Form->control('room_id', ['options' => $room]);
             echo $this->Form->control('start');
             echo $this->Form->control('end');
         ?>
