@@ -16,6 +16,7 @@
         <li><?= $this->Html->link(__('List Rooms'), ['controller' => 'Rooms', 'action' => 'index']) ?> </li>
         <li><?= $this->Html->link(__('New Room'), ['controller' => 'Rooms', 'action' => 'add']) ?> </li>
     </ul>
+     
 </nav>
 <div class="showtimes view large-9 medium-8 columns content">
     <h3><?= h($showtime->id) ?></h3>
